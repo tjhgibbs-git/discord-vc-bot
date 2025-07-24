@@ -1,0 +1,28 @@
+# Virtual environment
+dcbot-env/
+
+# Python bytecode
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Bot data files
+voice_stats.json
+bot_settings.json
+
+# Environment variables
+.env
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
