@@ -1,0 +1,6 @@
+notification_channel: "voice-chat-text"  # Channel name to send notifications
+
+ping_roles:  # Role names to ping when someone joins empty VC
+  - "Gaming Squad"
+  - "Voice Chat"
+  - "Available"
