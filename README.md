@@ -1,6 +1,10 @@
 # Discord Voice Chat Notification Bot
 
-A Discord bot that pings specified roles when someone joins an empty voice channel, inspired by Dan Petrolito's "Batsignal" concept.
+A Discord bot that pings specified roles when someone joins an empty voice channel, inspired by Dan Petrolito's "Batsignal" concept. 
+
+Read Dan's original blog post here: https://blog.danpetrolito.xyz/i-built-something-that-changed-my-friend-gro-social-fabric/
+
+This code was vibe coded on my phone whilst on holiday, so no assurances of quality, but the bot does work. The role add/remove needs fixing.
 
 ## Features
 
