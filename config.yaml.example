@@ -1,0 +1,9 @@
+notification_channel: "voice-chat-text"  # Channel name to send notifications
+
+ping_roles:  # Role names to ping when someone joins empty VC
+  - "Voice Chat Notifications"
+
+reaction_message_id: 1234567890123456789  # ID of message users react to
+
+reaction_roles:  # Emoji -> Role mapping
+  "🎤": "Voice Chat Notifications"

@@ -1,6 +1,10 @@
 import discord
 from discord.ext import commands
 import yaml
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 intents = discord.Intents.default()
 intents.voice_states = True
@@ -79,4 +83,4 @@ async def on_voice_state_update(member, before, after):
             
             await text_channel.send(message, delete_after=300)
 
-bot.run('YOUR_BOT_TOKEN_HERE')
+bot.run(os.getenv('DISCORD_TOKEN'))

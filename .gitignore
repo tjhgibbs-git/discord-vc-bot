@@ -14,6 +14,9 @@ bot_settings.json
 # Environment variables
 .env
 
+# Configuration files (use .example versions)
+config.yaml
+
 # IDE/Editor files
 .vscode/
 .idea/
