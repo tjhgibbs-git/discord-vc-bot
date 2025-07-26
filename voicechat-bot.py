@@ -34,7 +34,7 @@ async def on_raw_reaction_add(payload):
                 print(f"Guild not found: {payload.guild_id}")
                 return
                 
-            user = guild.get_member(payload.user_id)
+            user = await guild.fetch_member(payload.user_id)
             if not user:
                 print(f"User not found: {payload.user_id}")
                 return
@@ -69,7 +69,7 @@ async def on_raw_reaction_remove(payload):
                 print(f"Guild not found: {payload.guild_id}")
                 return
                 
-            user = guild.get_member(payload.user_id)
+            user = await guild.fetch_member(payload.user_id)
             if not user:
                 print(f"User not found: {payload.user_id}")
                 return
