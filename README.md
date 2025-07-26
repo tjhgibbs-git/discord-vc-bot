@@ -29,14 +29,17 @@ This code was vibe coded on my phone whilst on holiday, so no assurances of qual
 
 ### 3. Generate Invite Link
 1. Go to "OAuth2" → "URL Generator"
-2. Check "bot" scope
-3. Check permissions:
-   - Send Messages
+2. Check the following scopes:
+   - `bot`
+   - `applications.commands`
+3. Under "Bot Permissions", check:
+   - Send Messages  
    - Read Message History  
-   - Use Slash Commands
-   - Manage Roles
-   - View Channels
-4. Use generated URL to invite bot to server
+   - Use Slash Commands  
+   - Manage Roles  
+   - View Channels  
+4. **Do not check `messages.read`** — this is a deprecated scope for user accounts and not needed for bots.
+5. Use the generated URL to invite the bot to your server
 
 ### 4. Server Configuration
 1. Create role "Voice Chat Notifications" in Server Settings → Roles
