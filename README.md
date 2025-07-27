@@ -4,7 +4,7 @@ A Discord bot that pings specified roles when someone joins an empty voice chann
 
 Read Dan's original blog post here: https://blog.danpetrolito.xyz/i-built-something-that-changed-my-friend-gro-social-fabric/
 
-This code was vibe coded on my phone whilst on holiday, so no assurances of quality, but the bot does work. The role add/remove needs fixing.
+This code was vibe coded on my phone whilst on holiday, so no assurances of quality, but the bot does work.
 
 ## Features
 
